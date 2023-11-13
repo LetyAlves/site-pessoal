@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:wght@400;700&family=Limelight&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(180deg, #3E222E 0.03%, #120008 99.97%);
+}
+
+header {
+    background-color: #3E222E;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+nav {
+    background-color: #3E222E;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
+    color: #D4CACD;
+    font-family: Libre Bodoni;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: #D4CACD;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: none;
+    color: #201218;
+}
+
+section {
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 20px;
+    background-color: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.principal {
+    display: flex;
+    justify-content: space-around;
+}
+
+h1, h2 {
+    color: #D4CACD;
+}
+
+.contact-icons {
+    font-size: 2em;
+    margin-right: 10px;
+    color: #D4CACD;
+}
+
+footer {
+    background-color: none;
+    padding: 10px;
+    text-align: center;
+    color: #3E222E;
+}
+
+@media screen and (max-width: 600px) {
+    nav a {
+        float: none;
+        width: 100%;
+    }
+}

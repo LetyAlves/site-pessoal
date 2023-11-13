@@ -1,0 +1,19 @@
+{
+    "name": "Let\u00edcia Alves",
+    "short_name": "Let\u00edcia Alves",
+    "icons": [
+        {
+            "src": "/android-chrome-192x192.png?favicon=favicon",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/android-chrome-512x512.png?favicon=favicon",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#d4cacd",
+    "background_color": "#d4cacd",
+    "display": "standalone"
+}
