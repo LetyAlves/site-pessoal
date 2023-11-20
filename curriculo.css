@@ -4,6 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background: linear-gradient(180deg, #3E222E 0.03%, #120008 99.97%);
+    background-attachment: fixed;
 }
 
 header {
@@ -75,6 +76,32 @@ nav a:hover {
     font-weight: 200;
 }
 
+#cursos {
+    max-width: 800px;
+    margin: 20px auto;
+    font-family: Libre Bodoni;
+    color: #e9eaeb;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #3E222E;
+    color: white;
+}
+
 .citacao {
     font-family: Libre Bodoni;
     color: #e9eaeb;
@@ -106,4 +133,5 @@ footer {
         float: none;
         width: 100%;
     }
+}
 }
