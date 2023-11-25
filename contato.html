@@ -36,16 +36,18 @@
             <h2>Entre em contato!</h2>
 
            <form name="Contato" method="post" netlify data-netlify="true">
-                <label for="nome">Nome:</label>
-                <input type="text" id="nome" name="nome" required>
-    
-                <label for="email">E-mail:</label>
-                <input type="email" id="email" name="email" required>
-    
-                <label for="mensagem">Mensagem:</label>
-                <textarea id="mensagem" name="mensagem" required></textarea>
-    
-                <input type="submit" value="Enviar">
+                <p>
+                    <label>Nome: <input type="text" name="name" /></label>
+                </p>
+                <p>
+                    <label>E-mail: <input type="email" name="email" /></label>
+                </p>
+                <p>
+                    <label>Mensagem: <textarea name="message"></textarea></label>
+                </p>
+                <p>
+                    <button type="submit">Enviar</button>
+                </p>
             </form>
         </section>
     </main>
