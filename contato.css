@@ -52,16 +52,56 @@ section {
 .principal {
     display: flex;
     justify-content: space-around;
+    color: #D4CACD;
+    font-family: Libre Bodoni;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 h1, h2 {
     color: #D4CACD;
 }
 
+.container {
+    width: 50%;
+    margin: 50px auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+input, textarea {
+    margin-bottom: 16px;
+    padding: 8px;
+}
+
+input[type="submit"] {
+    background-color: #3E222E;
+    cursor: pointer;
+    color: #D4CACD;
+    font-family: Libre Bodoni;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+input[type="submit"]:hover {
+    background-color: #201218;
+}
+
 .contact-icons {
     font-size: 2em;
     margin-right: 10px;
-    color: #D4CACD;
+    color: #3E222E;
 }
 
 footer {
