@@ -83,6 +83,12 @@ body img {
     padding-top: 5%;
 }
 
+.contact-icons {
+    font-size: 2em;
+    margin-right: 10px;
+    color: #3E222E;
+}
+
 footer {
     background-color: none;
     padding: 10px;
