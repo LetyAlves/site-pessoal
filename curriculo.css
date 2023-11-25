@@ -121,6 +121,12 @@ th {
     text-align: right;
 }
 
+.contact-icons {
+    font-size: 2em;
+    margin-right: 10px;
+    color: #3E222E;
+}
+
 footer {
     background-color: none;
     padding: 10px;
@@ -133,5 +139,3 @@ footer {
         float: none;
         width: 100%;
     }
-}
-}
