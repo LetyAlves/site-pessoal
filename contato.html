@@ -30,15 +30,27 @@
         <section class="container">
             <h2>Entre em contato!</h2>
 
-           <form name="Contato" netlify>
-                <label for="nome">Nome:</label>
-                <input type="text" id="nome" name="nome" required>
+            <form name="Contato" netlify>
+                <fieldset class="dados">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
     
-                <label for="email">E-mail:</label>
-                <input type="email" id="email" name="email" required>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
     
-                <label for="mensagem">Mensagem:</label>
-                <textarea id="mensagem" name="mensagem" required></textarea>
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem"></textarea>
+                </fieldset>
+
+                <fieldset class="opcoes">
+                    <legend>Tipo de Contato:</legend>
+
+                    <input type="radio" name="tipo-de-contato" value="trabalho-freelancer" required>Trabalho Freelancer<br>
+
+                    <input type="radio" name="tipo-de-contato" value="emprego" required>Emprego<br>
+
+                    <input type="radio" name="tipo-de-contato" value="outros" required>Outros<br>
+                </fieldset>
     
                 <input type="submit" value="Enviar">
             </form>
