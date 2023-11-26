@@ -41,14 +41,6 @@ nav a:hover {
     color: #201218;
 }
 
-section {
-    max-width: 800px;
-    margin: 2em auto;
-    padding: 20px;
-    background-color: none;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
 .principal {
     display: flex;
     justify-content: space-around;
@@ -83,7 +75,18 @@ input, textarea {
     padding: 8px;
 }
 
+.dados {
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+
+.opcoes {
+    border: none;
+}
+
 input[type="submit"] {
+    border: none;
     background-color: #3E222E;
     cursor: pointer;
     color: #D4CACD;
